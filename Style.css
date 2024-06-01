@@ -83,10 +83,11 @@ header .header-list a{
 
 /*configuração do bloco-04 > Alguns frameworks JavaScript para desenvolvimento FrontEnd*/
 #bloco-02{
-    margin: 12vh auto;
+    background-image: url(img/back-bloco-04-a.png);
+    background-attachment: fixed;
     border-radius: 10px;
-    height: 40vh;
-    padding: 4rem;
+    height: 100vh;
+    padding: 6rem;
 }
 
 #bloco-02 .frameworks{
@@ -143,38 +144,82 @@ header .header-list a{
 
 /*configuração do bloco-03 > Frameworks JavaScript*/
 #bloco-03{
-    margin: 8rem 4rem;
-    padding: 4rem;
+    margin: 5rem 4rem;
+    padding: 3rem;
     background-color: white;
     border-radius: 10px;
     box-shadow: 1px 1px 3px 1px black;
-    margin-top: 30rem;
     
 }
-
 
 #bloco-03 h2{
     text-align: center;
 }
 
 #bloco-03 p{
-    
     text-align: justify;
     font-size: 22px;
     margin-top: 30px;
 }
 
-footer{
-    background-color: white;
+/*configuração do bloco-04 > Sites para se aprofundar em JavaScrip*/
+#bloco-04{
+    background-image: url(img/JS-logo-1.png);
+    background-size: 100vw 120vh;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 100vh;
+    padding: 4rem;
+}
+
+#bloco-04 h2{
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 60px;
     color: black;
-    height: 20vh;
+    font-size: 30px;
+}
+#bloco-04 .pai{
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+#bloco-04 .pai .padrao{
+    width: 50vw;
+    height: 40vh;
+    padding: 20px;
+}
+
+#bloco-04 .pai .padrao p{
+    text-align: justify;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+#bloco-04 .pai .padrao p a{
+   font-weight: 600;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 10vh;
     text-align: center;
     padding: 40px;
+    box-shadow: 1px 1px 8px 1px black;
 }
 
 footer .line{
     margin: 0 auto;
     width: 30%;
     box-shadow: 0px 0px 0px black;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+footer p a{
+    color: yellowgreen;
 }
 
