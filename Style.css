@@ -7,13 +7,18 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-
+/*configuração para voltar ao topo da página*/
+.topo img{
+    width: 25px;
+    height: 25px;
+    
+}
 
 /*configuração do header (cabeçalho)*/
 header{
     background-color: white;
     color: black;
-    padding: 2vh;
+    padding: 3vh;
     display: flex;
     justify-content: space-evenly;
     box-shadow: 0px 0px 8px black;
@@ -35,13 +40,15 @@ header .brand h1{
 
 header .header-list{
     display: flex;
-    margin-right: 10px;
+    gap: 30px;
+    margin-top: 13px;
 }
 
 header .header-list a{
     font-size: 20px;
     font-weight: 600;
     align-items: center;
+    color: black;
 }
 
 
@@ -220,6 +227,11 @@ footer .line{
 }
 
 footer p a{
+    color: yellow;
+}
+
+footer p a a:hover{
     color: yellowgreen;
+    transition: 1s;
 }
 
