@@ -23,18 +23,15 @@ header .brand{
 header .brand img{
     width: 50px;
     height: 50px;
-    
 }
 
 header .brand h1{
     margin-left: 10px;
-    
 }
 
 header .header-list{
     display: flex;
     margin-right: 10px;
-    
 }
 
 header .header-list a{
@@ -48,22 +45,73 @@ header .header-list a{
     margin: 5vh 4vw;
     border-radius: 10px;
     height: 50vh;
-    padding: 25px;
-    
+    padding: 50px;
 }
 
 #bloco-01 h1{
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     text-align: center;
+    margin-top: 30px;
 }
 
-#bloco-01 img{
-    width: 40%;
-    height: 50%;
+.line{
+    margin: 0 auto;
+    width: 30%;
+    box-shadow: 0px 0px 0px black;
 }
 
-#bloco-01 p{
+#bloco-01 .one{
     text-align: justify;
     font-size: 22px;
+    margin-top: 20px;
 }
 
+#bloco-01 .two{
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+
+#bloco-03{
+    
+    margin: 5vh 4vw;
+    border-radius: 10px;
+    height: 50vh;
+    padding: 50px;
+}
+
+
+
+#bloco-04{
+    
+    margin: 5vh 4vw;
+    border-radius: 10px;
+    height: 50vh;
+    padding: 50px;
+}
+
+#bloco-04 .frameworks{
+    display: flex;
+}
+
+#bloco-04 .react{
+    background-color: rgba(128, 128, 128, 0.549);
+}
+
+#bloco-04 .angular{
+    background-color: rgba(128, 128, 128, 0.549);
+}
+
+#bloco-04 .ember.js{
+    background-color: rgba(128, 128, 128, 0.549);
+}
+
+#bloco-04 .backbone.js{
+    background-color: rgba(128, 128, 128, 0.549);
+}
+
+#bloco-04 .react{
+    background-color: rgba(128, 128, 128, 0.549);
+}
